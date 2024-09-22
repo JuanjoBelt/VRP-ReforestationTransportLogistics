@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  21 SEP 2024 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  21 SEP 2024 18:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,7 +554,62 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip81
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 29.
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+ (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen168
+\captionmargin=\dimen169
+\caption@leftmargin=\dimen170
+\caption@rightmargin=\dimen171
+\caption@width=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+Package caption Info: AMS or SMF document class detected.
+ (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-ams-smf.sto
+File: caption-ams-smf.sto 2020/08/22 v2.0 Adaption of the caption package to the AMS and SMF document classes (AR)
+))
+\c@caption@flags=\count441
+\c@continuedfloat=\count442
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count443
+\sf@farskip=\skip82
+\sf@captopadj=\dimen176
+\sf@capskip=\skip83
+\sf@nearskip=\skip84
+\c@subfigure=\count444
+\c@subfigure@save=\count445
+\c@lofdepth=\count446
+\c@subtable=\count447
+\c@subtable@save=\count448
+\c@lotdepth=\count449
+\sf@top=\skip85
+\sf@bottom=\skip86
+) (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen177
+\lightrulewidth=\dimen178
+\cmidrulewidth=\dimen179
+\belowrulesep=\dimen180
+\belowbottomsep=\dimen181
+\aboverulesep=\dimen182
+\abovetopsep=\dimen183
+\cmidrulesep=\dimen184
+\cmidrulekern=\dimen185
+\defaultaddspace=\dimen186
+\@cmidla=\count450
+\@cmidlb=\count451
+\@aboverulesep=\dimen187
+\@belowrulesep=\dimen188
+\@thisruleclass=\count452
+\@lastruleclass=\count453
+\@thisrulewidth=\dimen189
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (main.aux
@@ -563,43 +618,43 @@ LaTeX Info: Redefining \% on input line 21.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
  (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count441
-\scratchdimen=\dimen168
+\scratchcounter=\count454
+\scratchdimen=\dimen190
 \scratchbox=\box56
-\nofMPsegments=\count442
-\nofMParguments=\count443
+\nofMPsegments=\count455
+\nofMParguments=\count456
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count444
-\MPscratchDim=\dimen169
-\MPnumerator=\count445
-\makeMPintoPDFobject=\count446
+\MPscratchCnt=\count457
+\MPscratchDim=\dimen191
+\MPnumerator=\count458
+\makeMPintoPDFobject=\count459
 \everyMPtoPDFconversion=\toks33
 ) (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -641,8 +696,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\spanish-apa.lbx
@@ -665,8 +720,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
  (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2024/01/14 v1.3d Standard LaTeX Color (DPC)
  (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -674,18 +729,21 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 30.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 
 [1{C:/Users/juanj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<Sources/figura1.png, id=49, 673.206pt x 171.696pt>
+<Sources/figura1.png, id=121, 673.206pt x 171.696pt>
 File: Sources/figura1.png Graphic file (type png)
 <use Sources/figura1.png>
-Package pdftex.def Info: Sources/figura1.png  used on input line 101.
+Package pdftex.def Info: Sources/figura1.png  used on input line 98.
 (pdftex.def)             Requested size: 354.86412pt x 90.5059pt.
 
 
@@ -693,7 +751,75 @@ Package pdftex.def Info: Sources/figura1.png  used on input line 101.
 
 [3]
 
-[4] (main.aux
+[4]
+
+[5]
+<Sources/TablaDePlantas.png, id=201, 470.75874pt x 483.8075pt>
+File: Sources/TablaDePlantas.png Graphic file (type png)
+<use Sources/TablaDePlantas.png>
+Package pdftex.def Info: Sources/TablaDePlantas.png  used on input line 247.
+(pdftex.def)             Requested size: 155.25517pt x 159.56099pt.
+
+
+[6 <./Sources/TablaDePlantas.png>]
+
+[7]
+
+[8]
+<Sources/Ruta_3.jpg, id=229, 400.01445pt x 268.8444pt>
+File: Sources/Ruta_3.jpg Graphic file (type jpg)
+<use Sources/Ruta_3.jpg>
+Package pdftex.def Info: Sources/Ruta_3.jpg  used on input line 323.
+(pdftex.def)             Requested size: 212.91577pt x 143.10219pt.
+<Sources/Ruta_13.jpg, id=230, 401.64052pt x 269.74777pt>
+File: Sources/Ruta_13.jpg Graphic file (type jpg)
+<use Sources/Ruta_13.jpg>
+Package pdftex.def Info: Sources/Ruta_13.jpg  used on input line 326.
+(pdftex.def)             Requested size: 212.91577pt x 142.99855pt.
+
+
+[9 <./Sources/Ruta_3.jpg> <./Sources/Ruta_13.jpg>]
+<Sources/Tabla1.png, id=246, 1204.5pt x 488.57532pt>
+File: Sources/Tabla1.png Graphic file (type png)
+<use Sources/Tabla1.png>
+Package pdftex.def Info: Sources/Tabla1.png  used on input line 382.
+(pdftex.def)             Requested size: 443.57848pt x 179.92761pt.
+<Sources/Tabla2.png, id=247, 1204.5pt x 517.935pt>
+File: Sources/Tabla2.png Graphic file (type png)
+<use Sources/Tabla2.png>
+Package pdftex.def Info: Sources/Tabla2.png  used on input line 388.
+(pdftex.def)             Requested size: 443.57848pt x 190.7399pt.
+
+
+[10 <./Sources/Tabla1.png>]
+<Sources/Tabla3.png, id=261, 1204.5pt x 517.935pt>
+File: Sources/Tabla3.png Graphic file (type png)
+<use Sources/Tabla3.png>
+Package pdftex.def Info: Sources/Tabla3.png  used on input line 394.
+(pdftex.def)             Requested size: 443.57848pt x 190.7399pt.
+<Sources/graficaResultados1.png, id=262, 363.321pt x 222.723pt>
+File: Sources/graficaResultados1.png Graphic file (type png)
+<use Sources/graficaResultados1.png>
+Package pdftex.def Info: Sources/graficaResultados1.png  used on input line 402.
+(pdftex.def)             Requested size: 212.91577pt x 130.52182pt.
+<Sources/graficaResultados2.png, id=263, 363.321pt x 218.781pt>
+File: Sources/graficaResultados2.png Graphic file (type png)
+<use Sources/graficaResultados2.png>
+Package pdftex.def Info: Sources/graficaResultados2.png  used on input line 405.
+(pdftex.def)             Requested size: 212.91577pt x 128.2117pt.
+
+
+[11 <./Sources/Tabla2.png> <./Sources/Tabla3.png>]
+
+[12 <./Sources/graficaResultados1.png> <./Sources/graficaResultados2.png>]
+
+[13]
+
+[14]
+
+[15]
+
+[16] (main.aux
 LaTeX Info: Redefining \sptext on input line 21.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
@@ -703,23 +829,23 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 336BDEFA604C66E293A2A19AA91177C2;686.
+(rerunfilecheck)             Checksum: 3A2B3A8B2FA4F22F2681A701A9362193;3641.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20055 strings out of 473899
- 352840 string characters out of 5726500
- 1288773 words of memory out of 5000000
- 42533 multiletter control sequences out of 15000+600000
- 564732 words of font info for 62 fonts, out of 8000000 for 9000
+ 21841 strings out of 473899
+ 387940 string characters out of 5726500
+ 1338640 words of memory out of 5000000
+ 44233 multiletter control sequences out of 15000+600000
+ 565343 words of font info for 64 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 71i,6n,81p,809b,2811s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (4 pages, 180412 bytes).
+ 71i,10n,81p,1292b,2811s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (16 pages, 2214911 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
 

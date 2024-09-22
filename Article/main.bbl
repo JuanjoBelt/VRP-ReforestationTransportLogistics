@@ -90,6 +90,47 @@
       \verb https://balam.es/el-marco-de-plantacion/
       \endverb
     \endentry
+    \entry{Balinski1964}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b49a68f02d5b88c3640311d6bff239d4}{%
+           family={Balinski},
+           familyi={B\bibinitperiod},
+           given={Michel\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d721089dea8e49e5a7223b7015dd3f26}{%
+           family={Quandt},
+           familyi={Q\bibinitperiod},
+           given={Richard\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{fullhash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{fullhashraw}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{bibnamehash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{authorbibnamehash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{authornamehash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{authorfullhash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{authorfullhashraw}{943813d3d4bd0fd55b11e50768394d3c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Operations research}
+      \field{number}{2}
+      \field{title}{On an Integer Program for a Delivery Problem}
+      \field{volume}{12}
+      \field{year}{1964}
+      \field{pages}{300\bibrangedash 304}
+      \range{pages}{5}
+    \endentry
     \entry{Carbo}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=25a7699ef51a58b8601bc6943335cff8}{%
@@ -159,6 +200,150 @@
       \endverb
       \verb{url}
       \verb https://www.gob.mx/conafor/prensa/se-reduce-en-26-la-tasa-anual-de-deforestacion
+      \endverb
+    \endentry
+    \entry{Dror}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c6662eeacd61876052ef92d5be31600e}{%
+           family={Dror},
+           familyi={D\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d6e9fe0f2d8b8a132ebe0ace7645d51}{%
+           family={Laporte},
+           familyi={L\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a51a029c18fc752e999797174e2b498b}{%
+           family={Trudeau},
+           familyi={T\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ba48f807b905ab456f719673aedce6b}
+      \strng{fullhash}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{fullhashraw}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{bibnamehash}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{authorbibnamehash}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{authornamehash}{3ba48f807b905ab456f719673aedce6b}
+      \strng{authorfullhash}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{authorfullhashraw}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0166-218X}
+      \field{journaltitle}{Discrete Applied Mathematics}
+      \field{number}{3}
+      \field{title}{Vehicle Routing With Split Deliveries}
+      \field{volume}{50}
+      \field{year}{1994}
+      \field{pages}{239\bibrangedash 254}
+      \range{pages}{16}
+      \verb{doi}
+      \verb {https://doi.org/10.1016/0166-218X(92)00172-I}
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0166218X9200172I
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0166218X9200172I
+      \endverb
+    \endentry
+    \entry{florez2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f01ce32888227d9204c03e872e77fa18}{%
+           family={Flórez},
+           familyi={F\bibinitperiod},
+           given={Jairo\bibnamedelimb Alberto\bibnamedelima Villegas},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=011cb60470a148d059707699e4e5dec1}{%
+           family={Grisales},
+           familyi={G\bibinitperiod},
+           given={Carlos\bibnamedelimb Julio\bibnamedelima Zapata},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24a96731f9a96435cce9f7669b36b36d}{%
+           family={Gatica},
+           familyi={G\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Tecnológica de Pereira}%
+      }
+      \strng{namehash}{9b120a55569e2289fa2a581513a583d1}
+      \strng{fullhash}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{fullhashraw}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{bibnamehash}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{authorbibnamehash}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{authornamehash}{9b120a55569e2289fa2a581513a583d1}
+      \strng{authorfullhash}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{authorfullhashraw}{b0c412008b6d4fe430990596ad4e803b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientia et technica}
+      \field{number}{4}
+      \field{title}{Una aplicación del método MTZ a la solución del problema del agente viajero}
+      \field{volume}{22}
+      \field{year}{2017}
+      \field{pages}{341\bibrangedash 344}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.redalyc.org/pdf/849/84955649006.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.redalyc.org/pdf/849/84955649006.pdf
+      \endverb
+    \endentry
+    \entry{García2010}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4efb55ce20a0fefef8d9d9559915ef}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Irma},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Universidad Autónoma de Coahuila}%
+      }
+      \strng{namehash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{fullhash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{fullhashraw}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{bibnamehash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{authorbibnamehash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{authornamehash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{authorfullhash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{authorfullhashraw}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El Problema de Ruteo de Vehículos}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://tikhonov.fciencias.unam.mx/presentaciones/2010ago05.pdf
+      \endverb
+      \verb{url}
+      \verb http://tikhonov.fciencias.unam.mx/presentaciones/2010ago05.pdf
       \endverb
     \endentry
     \entry{Anónimo3}{online}{}{}
@@ -305,6 +490,45 @@
       \verb https://matematicas11235813.luismiglesias.es/2021/06/05/siembra-a-tresbolillo-competencia-matematica-geometria-plana-aplicada-en-huertos-y-jardines-dia-mundial-del-medio-ambiente/
       \endverb
     \endentry
+    \entry{Larraín2021}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6f0cfc80890d28c59b4105b18630f62}{%
+           family={Larraín},
+           familyi={L\bibinitperiod},
+           given={Homero},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {YouTube}%
+      }
+      \strng{namehash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{fullhash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{fullhashraw}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{bibnamehash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{authorbibnamehash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{authornamehash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{authorfullhash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{authorfullhashraw}{d6f0cfc80890d28c59b4105b18630f62}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Retrieved 18/5/2024}
+      \field{subtitle}{Formulación del VRP}
+      \field{title}{Ruteo de Vehículos 2.1}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://youtu.be/q2fUDDJMbpg?feature=shared
+      \endverb
+      \verb{url}
+      \verb https://youtu.be/q2fUDDJMbpg?feature=shared
+      \endverb
+    \endentry
     \entry{Lifeder}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f0886f83e2e0c2518db82f3c6ead85dd}{%
@@ -411,6 +635,44 @@
       \verb https://es.wikipedia.org/wiki/Mezquite
       \endverb
     \endentry
+    \entry{Sarmiento2014}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5a11a83a0b2af3378871a81286c1db2}{%
+           family={Sarmiento},
+           familyi={S\bibinitperiod},
+           given={Angélica},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de la Sabana}%
+      }
+      \strng{namehash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{fullhash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{fullhashraw}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{bibnamehash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{authorbibnamehash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{authornamehash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{authorfullhash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{authorfullhashraw}{c5a11a83a0b2af3378871a81286c1db2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Retrieved 18/5/2024}
+      \field{title}{Estudio del Problema de Ruteo de Vehículos con Balance de Carga: Aplicación de la Meta-heurística Búsqueda Tabú.}
+      \field{type}{mathesis}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://intellectum.unisabana.edu.co/bitstream/handle/10818/9798/Ang%C3%A9lica%20Sarmiento%20Lepesqueur%20%28TESIS%29.pdf
+      \endverb
+      \verb{url}
+      \verb https://intellectum.unisabana.edu.co/bitstream/handle/10818/9798/Ang%C3%A9lica%20Sarmiento%20Lepesqueur%20%28TESIS%29.pdf
+      \endverb
+    \endentry
     \entry{Anónimo4}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=db5c08121e191b1500ccaadc8dbb2026}{%
@@ -480,6 +742,43 @@
       \verb{url}
       \verb https://www.tipsytemasagronomicos.com/siembra-en-triangulo-o-en-tresbolillo/
       \endverb
+    \endentry
+    \entry{Toth2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=16fc2b730a7a7c0fc6b31098630baaef}{%
+           family={Toth},
+           familyi={T\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=714df25ae31514d150daa1631e87d182}{%
+           family={Vigo},
+           familyi={V\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{5bb027295595510455847230731bf280}
+      \strng{fullhash}{5bb027295595510455847230731bf280}
+      \strng{fullhashraw}{5bb027295595510455847230731bf280}
+      \strng{bibnamehash}{5bb027295595510455847230731bf280}
+      \strng{authorbibnamehash}{5bb027295595510455847230731bf280}
+      \strng{authornamehash}{5bb027295595510455847230731bf280}
+      \strng{authorfullhash}{5bb027295595510455847230731bf280}
+      \strng{authorfullhashraw}{5bb027295595510455847230731bf280}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{ISBN: 0-89871-579-2}
+      \field{title}{The Vehicle Routing Problem}
+      \field{year}{2002}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -554,6 +853,47 @@
       \verb https://balam.es/el-marco-de-plantacion/
       \endverb
     \endentry
+    \entry{Balinski1964}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b49a68f02d5b88c3640311d6bff239d4}{%
+           family={Balinski},
+           familyi={B\bibinitperiod},
+           given={Michel\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d721089dea8e49e5a7223b7015dd3f26}{%
+           family={Quandt},
+           familyi={Q\bibinitperiod},
+           given={Richard\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{fullhash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{fullhashraw}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{bibnamehash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{authorbibnamehash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{authornamehash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{authorfullhash}{943813d3d4bd0fd55b11e50768394d3c}
+      \strng{authorfullhashraw}{943813d3d4bd0fd55b11e50768394d3c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Operations research}
+      \field{number}{2}
+      \field{title}{On an Integer Program for a Delivery Problem}
+      \field{volume}{12}
+      \field{year}{1964}
+      \field{pages}{300\bibrangedash 304}
+      \range{pages}{5}
+    \endentry
     \entry{Carbo}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=25a7699ef51a58b8601bc6943335cff8}{%
@@ -623,6 +963,150 @@
       \endverb
       \verb{url}
       \verb https://www.gob.mx/conafor/prensa/se-reduce-en-26-la-tasa-anual-de-deforestacion
+      \endverb
+    \endentry
+    \entry{Dror}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c6662eeacd61876052ef92d5be31600e}{%
+           family={Dror},
+           familyi={D\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d6e9fe0f2d8b8a132ebe0ace7645d51}{%
+           family={Laporte},
+           familyi={L\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a51a029c18fc752e999797174e2b498b}{%
+           family={Trudeau},
+           familyi={T\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ba48f807b905ab456f719673aedce6b}
+      \strng{fullhash}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{fullhashraw}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{bibnamehash}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{authorbibnamehash}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{authornamehash}{3ba48f807b905ab456f719673aedce6b}
+      \strng{authorfullhash}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \strng{authorfullhashraw}{4e7f4162ca35882f1f0803f181f7f8d6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0166-218X}
+      \field{journaltitle}{Discrete Applied Mathematics}
+      \field{number}{3}
+      \field{title}{Vehicle Routing With Split Deliveries}
+      \field{volume}{50}
+      \field{year}{1994}
+      \field{pages}{239\bibrangedash 254}
+      \range{pages}{16}
+      \verb{doi}
+      \verb {https://doi.org/10.1016/0166-218X(92)00172-I}
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0166218X9200172I
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0166218X9200172I
+      \endverb
+    \endentry
+    \entry{florez2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f01ce32888227d9204c03e872e77fa18}{%
+           family={Flórez},
+           familyi={F\bibinitperiod},
+           given={Jairo\bibnamedelimb Alberto\bibnamedelima Villegas},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=011cb60470a148d059707699e4e5dec1}{%
+           family={Grisales},
+           familyi={G\bibinitperiod},
+           given={Carlos\bibnamedelimb Julio\bibnamedelima Zapata},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24a96731f9a96435cce9f7669b36b36d}{%
+           family={Gatica},
+           familyi={G\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Tecnológica de Pereira}%
+      }
+      \strng{namehash}{9b120a55569e2289fa2a581513a583d1}
+      \strng{fullhash}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{fullhashraw}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{bibnamehash}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{authorbibnamehash}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{authornamehash}{9b120a55569e2289fa2a581513a583d1}
+      \strng{authorfullhash}{b0c412008b6d4fe430990596ad4e803b}
+      \strng{authorfullhashraw}{b0c412008b6d4fe430990596ad4e803b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientia et technica}
+      \field{number}{4}
+      \field{title}{Una aplicación del método MTZ a la solución del problema del agente viajero}
+      \field{volume}{22}
+      \field{year}{2017}
+      \field{pages}{341\bibrangedash 344}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.redalyc.org/pdf/849/84955649006.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.redalyc.org/pdf/849/84955649006.pdf
+      \endverb
+    \endentry
+    \entry{García2010}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4efb55ce20a0fefef8d9d9559915ef}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Irma},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Universidad Autónoma de Coahuila}%
+      }
+      \strng{namehash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{fullhash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{fullhashraw}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{bibnamehash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{authorbibnamehash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{authornamehash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{authorfullhash}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \strng{authorfullhashraw}{4c4efb55ce20a0fefef8d9d9559915ef}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El Problema de Ruteo de Vehículos}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://tikhonov.fciencias.unam.mx/presentaciones/2010ago05.pdf
+      \endverb
+      \verb{url}
+      \verb http://tikhonov.fciencias.unam.mx/presentaciones/2010ago05.pdf
       \endverb
     \endentry
     \entry{Anónimo3}{online}{}{}
@@ -769,6 +1253,45 @@
       \verb https://matematicas11235813.luismiglesias.es/2021/06/05/siembra-a-tresbolillo-competencia-matematica-geometria-plana-aplicada-en-huertos-y-jardines-dia-mundial-del-medio-ambiente/
       \endverb
     \endentry
+    \entry{Larraín2021}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6f0cfc80890d28c59b4105b18630f62}{%
+           family={Larraín},
+           familyi={L\bibinitperiod},
+           given={Homero},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {YouTube}%
+      }
+      \strng{namehash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{fullhash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{fullhashraw}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{bibnamehash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{authorbibnamehash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{authornamehash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{authorfullhash}{d6f0cfc80890d28c59b4105b18630f62}
+      \strng{authorfullhashraw}{d6f0cfc80890d28c59b4105b18630f62}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Retrieved 18/5/2024}
+      \field{subtitle}{Formulación del VRP}
+      \field{title}{Ruteo de Vehículos 2.1}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://youtu.be/q2fUDDJMbpg?feature=shared
+      \endverb
+      \verb{url}
+      \verb https://youtu.be/q2fUDDJMbpg?feature=shared
+      \endverb
+    \endentry
     \entry{Lifeder}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f0886f83e2e0c2518db82f3c6ead85dd}{%
@@ -875,6 +1398,44 @@
       \verb https://es.wikipedia.org/wiki/Mezquite
       \endverb
     \endentry
+    \entry{Sarmiento2014}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5a11a83a0b2af3378871a81286c1db2}{%
+           family={Sarmiento},
+           familyi={S\bibinitperiod},
+           given={Angélica},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de la Sabana}%
+      }
+      \strng{namehash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{fullhash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{fullhashraw}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{bibnamehash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{authorbibnamehash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{authornamehash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{authorfullhash}{c5a11a83a0b2af3378871a81286c1db2}
+      \strng{authorfullhashraw}{c5a11a83a0b2af3378871a81286c1db2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Retrieved 18/5/2024}
+      \field{title}{Estudio del Problema de Ruteo de Vehículos con Balance de Carga: Aplicación de la Meta-heurística Búsqueda Tabú.}
+      \field{type}{mathesis}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://intellectum.unisabana.edu.co/bitstream/handle/10818/9798/Ang%C3%A9lica%20Sarmiento%20Lepesqueur%20%28TESIS%29.pdf
+      \endverb
+      \verb{url}
+      \verb https://intellectum.unisabana.edu.co/bitstream/handle/10818/9798/Ang%C3%A9lica%20Sarmiento%20Lepesqueur%20%28TESIS%29.pdf
+      \endverb
+    \endentry
     \entry{Anónimo4}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=db5c08121e191b1500ccaadc8dbb2026}{%
@@ -944,6 +1505,43 @@
       \verb{url}
       \verb https://www.tipsytemasagronomicos.com/siembra-en-triangulo-o-en-tresbolillo/
       \endverb
+    \endentry
+    \entry{Toth2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=16fc2b730a7a7c0fc6b31098630baaef}{%
+           family={Toth},
+           familyi={T\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=714df25ae31514d150daa1631e87d182}{%
+           family={Vigo},
+           familyi={V\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{5bb027295595510455847230731bf280}
+      \strng{fullhash}{5bb027295595510455847230731bf280}
+      \strng{fullhashraw}{5bb027295595510455847230731bf280}
+      \strng{bibnamehash}{5bb027295595510455847230731bf280}
+      \strng{authorbibnamehash}{5bb027295595510455847230731bf280}
+      \strng{authornamehash}{5bb027295595510455847230731bf280}
+      \strng{authorfullhash}{5bb027295595510455847230731bf280}
+      \strng{authorfullhashraw}{5bb027295595510455847230731bf280}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{ISBN: 0-89871-579-2}
+      \field{title}{The Vehicle Routing Problem}
+      \field{year}{2002}
     \endentry
   \enddatalist
 \endrefsection
