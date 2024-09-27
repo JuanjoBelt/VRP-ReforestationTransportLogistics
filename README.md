@@ -1,6 +1,6 @@
 # Research Project: Reforestation Logistic Transport Optimization
 
-**Authors:** Juan José H. Beltrán, Kevin Martínez-Trinidad, Jesús Ramirez Mendieta, Kaleb Flores Alfonso
+**Authors:** Juan José H. Beltrán, Kevin Martínez-Trinidad, Jesús Ramirez Mendieta, Kaleb Flores Alfonso.
 
 **Keywords:** Optimization, vehicle routing problem, linear programming, heuristics, logistics, reforestation.
 
