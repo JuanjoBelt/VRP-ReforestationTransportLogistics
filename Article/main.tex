@@ -1,6 +1,6 @@
 \documentclass{amsart}
 \usepackage{graphicx}
-\usepackage[margin=3cm]{geometry}
+\usepackage[margin=2.5cm]{geometry}
 \usepackage{multicol}
 \usepackage{amsmath}
 \usepackage{caption}
@@ -42,9 +42,9 @@
         {\scshape\Large Escuela de Ingeniería y Ciencias\par}
         \vspace{0.5cm}
         %{\scshape\Huge Reforestation Logistic Transport Optimization\par}
-        {\scshape\Huge Roads to Reforestation: Transport Routing Optimization for Reforestation\par}
+        {\scshape\Huge Green Logistics: Transport Routing Optimization for Reforestation\par}
         \vspace{0.5cm}
-        {\small Juan José H. Beltrán | Kevin Martínez-Trinidad | Jesús Ramirez Mendieta | Ricardo Kaleb Flores Alfonso\par}
+        {\small Juan José H. Beltrán \hspace{5pt} Kevin Martínez-Trinidad \hspace{5pt} Ricardo Kaleb Flores Alfonso \par Jesús Ramirez Mendieta \hspace{5pt} Fernando Elizalde Ramírez\par}
         %\begin{table}[h]
         %    \begin{tabular}{cccc}
         %    \begin{tabular}[c]{@{}c@{}}Juan José H. Beltrán\\ a00836747@tec.mx\end{tabular} &
@@ -57,32 +57,34 @@
         {\small \today}
         \vspace{0.5cm}
         
-        \rule{15.5cm}{0.1pt}
+        \rule{16.5cm}{0.1pt}
     \end{center}
 
 
 % -----------------------------Abstract---------------------------------
 
 \section*{Abstract}
-    This paper addresses the optimization of transport logistics in reforestation projects, focusing on minimizing time, hence, costs associated with the delivery of plants to reforestation sites. Using a Vehicle Routing Problem (VRP) framework, we applied mixed-integer linear programming to identify the optimal routes for delivery trucks, considering vehicle capacities and delivery demands. Also, a heuristic solution was implemented, reducing computational time while maintainin near-optimal results. The solution, based on data from the National Forestry Commision in Mexico, shows that the heuristic model offers and efficient approach to managing reforestation logistics.
+    This paper addresses the optimization of transport logistics in reforestation projects, focusing on minimizing time, hence, costs associated with the delivery of plants to reforestation sites. Using a Vehicle Routing Problem (VRP) framework \parencite{Toth2002}, a mixed-integer linear programming was applied to identify the optimal routes for delivery trucks, considering vehicle capacities and delivery demands. Also, a heuristic solution was implemented, reducing computational time while maintaining near-optimal results. The solution, based on data from the National Forestry Commision in Mexico, shows that the heuristic model offers and efficient approach to managing reforestation logistics.
     
-{\small \subsection*{Keywords} Optimization, vehicle routing problem, linear programming, heuristics, logistics, reforestation.}
+{\subsection*{Keywords} Optimization, vehicle routing problem, linear programming, heuristics, logistics, reforestation.}
 
 
 % -----------------------------Introduction---------------------------------
 
     \section{Introduction}
-        Climate change and droughts are becoming sustancial problems, not only for keeping ecosystems in harmony, but also for human activities. Deforestation is one of the main causes of droughts, in addition to accelerating climate change. In Mexico, deforestation is a bigger problem than is believed, as it is often carried out illegally or irresponsibly. Meanwhile, reforestation programs allow to reduce the negative effects of deforestation, oganizations like CONAFOR (National Forestry Commission, in Mexico) receive a limited amount of resources and have a maximum period of a few months a year to carry out this kind of project.
+        Climate change and droughts are becoming substantial problems, not only for keeping ecosystems in harmony, but also for human activities. Deforestation is one of the main causes of droughts, in addition to accelerating climate change. In Mexico, deforestation is a bigger problem than is believed, as it is often carried out illegally or irresponsibly. Meanwhile, reforestation programs allow to reduce the negative effects of deforestation, which receive a limited amount of resources and have a maximum period of a few months a year to carry out this kind of project.
 
          Consequently, a model that indicates which are the optimal routes and the appropriate time to carry them out, thus reducing the time and economic expense of the activity, is necessary to increase as much as possible the probabilities of successfully completing the project, using the least amount of resources possible.
          
          The Vehicle Routing Problem (VRP) is one of the most studied combinatorial optimization problems in recent decades, mainly due to its relevance for the industry. This consists of determining a set of routes for a fleet of vehicles departing from one or more depots to satisfy the demand of geographically dispersed customers \parencite{Sarmiento2014}.
          
-         Studies of VRP applied in logistics can be found in the literature \parencite{Nurprihatin2021}, explores different methods for a rice distribution problem, as Monte Carlo simulations and genetic algorithm, staying with a two-steps linear programming method, a transportation model followed by a Capacitated Vehicle Routing Problem. The study considers other transportation methods like ships and planes and designs a conditional methodology combining the steps mentioned before. Meanwhile, Khan \parencite{Khan2014} models a mosquito coil distribution as an assignment problem, considering multiple clients and 3 warehouses. In Feillet \parencite{Feillet2014}, a multiday VRP based on time-classes is introduced to address a problem of transportation of people with dissabilities, where each customer is served almost daily with some consistency being expected in the service, the solution is found using a large neighborhood search heuristic, with each iteration solving a complex VRP with multiple time windows and no waiting time.
+         Studies of VRP applied to reforestation logistics can be found in the literature, such as \cite{VRPReforestation}, that model the problem of visiting different areas withing a forest to obtain information about the present resources in the area, this study aims to solve the problem with a VRP but at last they used a case study because the complexity of the model was too high to compute it. 
          
+         Also, transportation and distribution logistic cases can be found in the literature. \cite{Nurprihatin2021} explores different methods for a rice distribution problem, as Monte Carlo simulations and genetic algorithm, staying with a two-steps linear programming method, a transportation model followed by a Capacitated Vehicle Routing Problem. The study considers other transportation methods like ships and planes and designs a conditional methodology combining the steps mentioned before. Meanwhile, \cite{Khan2014} models a mosquito coil distribution as an assignment problem, considering multiple clients and 3 warehouses. In \cite{Feillet2014}, a multiday VRP based on time-classes is introduced to address a problem of transportation of people with disabilities, where each customer is served almost daily with some consistency being expected in the service, the solution is found using a large neighborhood search heuristic, with each iteration solving a complex VRP with multiple time windows and no waiting time.
+
 
         \subsection{Objective}        
-        The objective of this paper is to minimize both distance and consequently, time, consumed by the trucks that transport the plants to the planting site. To do this, it is proposed to build a work plan that contains ordered routes that allow CONAFOR to make all deliveries in the shortest time possible.
+        The objective of this paper is to minimize both distance and consequently, time, consumed by the trucks that transport the plants to the planting site. To do this, it is proposed to build a work plan that contains ordered routes, permiting to make all deliveries in the shortest time possible.
         
 
 
@@ -91,28 +93,28 @@
 
 \section{Methodology}
     \subsection{Problem Definition}
-    Is the intention, through a mathematical model and/or a heuristic algorithm, to provide the staff of Comisión Nacional Forestal (CONAFOR) a method to optimally plan the routes necessary to comply the number of individuals (see Table \ref{tab:especies}) that will be necessary for each section of the reforestation land (Figure \ref{fig:tablaDePoligonos}). 
+    Is the intention, through a mathematical model and/or a heuristic algorithm, to provide a method to optimally plan the routes necessary to comply the number of individuals (see Table \ref{tab:especies}) that will be necessary for each section of the reforestation land (Figure \ref{fig:tablaDePoligonos}). 
 
     After a brief analysis, it can be observed that the project has many similarities with VRP (Vehicule Routing Problem) models, specifically VRP with split deliveries. These problems are characterized by having a source node (depot), which supplies resources to all other nodes, which can be satisfied in several deliveries. From the source node, k vehicles depart, which can have identical or different load capacities \parencite{Dror}.
     
     For this model, given the limited information on the paths available, it was decided to implement the Euclidean distance as the cost of taking each edge. On the other hand, since the number of vehicles available is not known, it was decided to set the number of vehicles as the minimum number of cycles needed to meet all the demands, defining a cycle as one that starts leaving the origin node and ends arriving at the same node. 
 
-    To obtain the distances between the nodes, the image with the geographic location of the polygons provided by CONAFOR (Figure \ref{fig:tablaDePoligonos}) was used, considering the scale in meters presented. A Python code was implemented allowing to obtain the distance between each node by simply entering the approximate coordinate of the centroid of each one.
+    To obtain the distances between the nodes, the image with the geographic location of the polygons (Figure \ref{fig:tablaDePoligonos}) was used, considering the scale in meters presented. A Python code was implemented allowing to obtain the distance between each node by simply entering the approximate coordinate of the centroid of each one.
         
         \begin{figure}[ht]
             \centering
-            \includegraphics[width=0.5\linewidth]{Sources/Poligonos.png}
+            \includegraphics[width=0.5\linewidth]{Sources/Predio.png}
             \caption{Sections of land to be reforested. Its numbering and area in hectares are shown.}
             \label{fig:tablaDePoligonos}
         \end{figure}
     
     \subsection{Parameters Considered}
     
-    The following values for the parameters were obtained from INECOL.
+    The following values for the parameters were obtained from the parnered reforestation entity.
     
     \begin{itemize}
         \item \textit{Average speed of vehicles:} 20 km/h. Being heavy-duty trucks, these tend to have low acceleration and speed, mainly when dealing with unpaved roads, as in this case study, since there are no established roads on most of the routes and the reforestation area has a uniform altitude.
-        \item \textit{Vehicle capacity:} 1 hectare. All vehicles are considered to have identical capacity, as we are actually considering a single vehicle that makes the routes consecutively. According to INECOL, a vehicle loaded to its maximum capacity distributes enough plants to reforest exactly one full hectare.
+        \item \textit{Vehicle capacity:} 1 hectare. All vehicles are considered to have identical capacity, as we are actually considering a single vehicle that makes the routes consecutively. Likewise, a vehicle loaded to its maximum capacity distributes enough plants to reforest exactly one full hectare.
         \item \textit{Node demands:} The demand corresponds to the area in hectares of each polygon to reforest.
         \item \textit{Loading and unloading time:} 1/2 hour per hectare of load.
         \item \textit{Distance between nodes:} The distances between each pair of nodes are assumed to correspond to the Euclidean distance between the centroids of the polygons they represent in reality.
@@ -177,18 +179,18 @@
         $$w_{ijk} \geq 0 \hspace{0.5cm} \forall i,j \in V, \hspace{0.2cm} k \in K$$
         
         
-\vspace{0.4cm}
+        \vspace{0.4cm}
         The objective function to be minimized is the sum of the product of the costs per arch and the binary that indicates whether it was used or not, multiplied by the reciprocal of the speed, all of this representing the time invested in traveling distances; plus the sum of all the loads delivered multiplied by $2t$, which is the loading/unloading time, which is assumed to vary linearly depending on the number of plants to be unloaded. 
         
         
-        The first group of constraint conserves the flow of vehicles. The second one ensures that all cars pass through node zero (depot). The third constraints group corresponds to the maximum load of each vehicle. The fourth is to satisfy the demands of each customer. The fifth aim to avoid subtours, by assigning each node a positive integer corresponding to the order in which they are visited by each vehicle. Finnaly, the last three group of constraints are about the nature of the variables: $x_{ijk}$ must equal zero only if $w_{ijk}$ is equal to $0$, and must be equal to $1$ otherwise. $x_{ijk}$ is a binary variable. $w_{ijk}$ must be greater than or equal to zero to avoid transporting a negative amount of material (plants).
+        The first group of constraints conserves the flow of vehicles. The second one ensures that all cars pass through node zero (depot). The third constraints group corresponds to the maximum load of each vehicle. The fourth is to satisfy the demands of each customer. The fifth aim to avoid subtours, by assigning each node a positive integer corresponding to the order in which they are visited by each vehicle. Finaly, the last three group of constraints are about the nature of the variables: $x_{ijk}$ must equal zero only if $w_{ijk}$ is equal to $0$, and must be equal to $1$ otherwise. $x_{ijk}$ is a binary variable. $w_{ijk}$ must be greater than or equal to zero to avoid transporting a negative amount of material (plants).
 
         \subsection{Heuristic Method}\label{MetodoHeuristico}
         A greedy heuristic algorithm was chosen, which starts by completely supplying the demand of the node furthest from the depot, and then unloads the remaining resource at the node closest to the one previously visited. This makes deliveries more efficient, because having visited and completely supplied the furthest node, no matter where you move, you always get closer to the base. Because the furthest customers are the ones that generate the most costs, this algorithm allows us to reduce the number of times it is necessary to travel to a distant node.
         
         
         \subsection{Model Assumptions and Limitations}
-        The assumptions of the model and the limitations they cause in it are stated below, as well as posible solutions for further works.
+        The assumptions of the model and the limitations they cause in it are stated below, as well as possible solutions for further works.
         
             \subsubsection{Euclidean Distance}
         
@@ -200,24 +202,26 @@
             
         
         \subsection{Ordering the Routes}\label{OrderRoutes}
-        Having obtained the optimal routes, it is important to make a visit plan, so the minimum of work days is determined. Assuming that the routes are completely independent of each other and can be reordered at will, the following mathematical model is proposed:
+        Having obtained the optimal routes, it is important to make a plan, such that the number of working days required is minimized. Assuming that a route cannot be interrupted once it starts, the routes are completely independent of each other and can be reordered at will, the following mathematical model is proposed:
         
-        $i$ routes asociated to a $c_i$ cost. We model the problem with binary variables
-        $x_{i,t}$, which take the value of 1 if the route $i$ will be done in the day $t$ and binary variables $d_t$, which take the value of 1 if at least one route is programmed to be done in the day $t$.
+        Let $h$ be the hours available for tours per day. Set $M=\{1, 2, ... , m\}$ represents the days on which the routes will be distributed. Set $N = \{1, 2, ..., n\}$ represents the routes to be distributed. Each route has an associated cost $c_i$, which is the time it takes to travel the route $i \in N$ distributing the truck's load. Let $x_{ij}$ be binary variables, which take the value of 1 if the route $i\in N$ will be done in the day $j \in M$; and let $d_j$ be binary variables, which take the value of 1 if at least one route is programmed to be done on the day $j \in M$, or 0 otherwise.
+        
         Posed as a linear programming problem, it can be written as follows:
         
         \begin{equation}
-            Minimize \hspace{0.2cm} \sum^n_{i=1}d_i
+            Minimize \hspace{0.2cm} \sum_{j \in M} d_j
         \end{equation}
-        $$Subject\hspace{0.07cm} to \hspace{0.5cm} \sum^n_{i=1}c_i*x_{i,t} =l= 8 * d_t$$
-        $$\sum^n_{t=1}x_{i,t}=1 \forall i$$
         
-        Hence the model is reduced to a problem with two binary variables and less restrictions it can be solved quicker and with less resources.
+        $$Subject \hspace{0.07cm} to \hspace{0.2cm} \sum_{i \in N} c_i*x_{ij} \leq h * d_j \hspace{0.5cm} \forall j \in M$$
+        $$\sum_{j \in M} x_{ij} = 1 \hspace{0.5cm} \forall i$$
+        \vspace{0.4cm}
+        
+        By solving this model, considering an 8-hour work day, the configuration that minimizes the number of days required to complete the distribution of plants to all polygons can be found.
 
 % -------------------------------------- Results--------------------------------------
     \section{Results}
-        \subsection{Solutions with Small Cases}
-        In order to compare the results obtained by the mathematical model and the heuristic model with the intention of determine if the closeness of the heuristic solution with the optimal solution is aceptable (less than 5\%), 3 sizes of the problem for which the mathematical model was capable to resolve at razonable times were used, these were tested in 5 samples took randomly: one with 5 nodes (Appendix: Table \ref{tab:5nodos}), another with 10 nodes (Appendix: Table \ref{tab:10nodos}), and one with 12 nodes (Appendix: Table \ref{tab:12nodos}). "P.D.F.O" abbreviates "percentage distance from optimum", considering the general solution: integer part plus decimal part. In order to guarantee the equality of conditions between our samples, no other zero demand nodes besides of the base were included. Likewise, in Table \ref{tab:TiemposDeComputo} is posible to visualize the difference of processing time between the 3 different sizes for the mathematical model, as well as for the heuristic one.
+        \subsection{Solutions with Small Cases}\label{SolutionsWithSmallCases}
+        In order to compare the results obtained by the mathematical model and the heuristic model with the intention of determine if the closeness of the heuristic solution with the optimal solution is acceptable (less than 5\%), 3 sizes of the problem for which the mathematical model was capable to resolve at reasonable times were used, these were tested in 5 samples took randomly: one with 5 nodes (Appendix: Table \ref{tab:5nodos}), another with 10 nodes (Appendix: Table \ref{tab:10nodos}), and one with 12 nodes (Appendix: Table \ref{tab:12nodos}). "P.D.F.O" abbreviates "percentage distance from optimum", considering the general solution: integer part plus decimal part. In order to guarantee the equality of conditions between our samples, no other zero demand nodes besides of the base were included. Likewise, in Table \ref{tab:TiemposDeComputo} is possible to visualize the difference of processing time between the 3 different sizes for the mathematical model, as well as for the heuristic one.
     
             
             \begin{table}[ht]
@@ -242,18 +246,20 @@
     
             \subsection{Complete Solution}
             
-            The optimization problem ended having the next number of sets, variables and parameters:
+            The complete optimization problem has the following sizes:
         \begin{itemize}
             \item A total of 26 nodes (excluding 5 nodes which have an integer demand) and, consequently, 676 arches.
             \item A total 20670 decisión variables, taking in count 3 variables groups: 10140 binary variable $x_{ijk}$, 10140 positive variable $w_{ijk}$, and 390 positive integer variables $u_{ik}$. 
             \item A total of 707 parameters formed by 676 $c_{i,j}$, 26 $q_i$, $m$, $L$, $t$, $M$ and $V$. (See Section \ref{ModeloMatematico} for parameters definitions).
         \end{itemize}
         
-            \subsubsection{Exact Solution}
-            Given the size of the problem and our computers' capacities, it wasn't possible to solve it with the mathematical model in a reasonable time (less than 48 hours), therefore, we present the colution obtained through the heuristic method.
+            \subsubsection{Exact Solution with Mathematical Model}
+            Given the size of the problem and the capacity of the available computers, it wasn't possible to solve it to optimality in a reasonable time (less than 60 hours), therefore, the solution obtained through the heuristic method is presented, expecting good quality results as shown in Table \ref{tab:TiemposDeComputo}.
             
             \subsubsection{Heuristic Solution}
-            In total, we obtained 15 different routes needed to satisfy the demand of the decimal part of the nodes, shown in Appendix: Table \ref{tab:ParteDecimal}. Likewise, two of the routes of the proposed model are shown graphically (see Figure \ref{fig:RutasDeEjemplo}). The rest of the routes can be accessed in Appendix.
+            The efficiency and near-optimalness of the heuristic method (presented in Section \ref{MetodoHeuristico}) have been previously supported in Section \ref{SolutionsWithSmallCases}.
+            
+            In total, 15 different routes needed to satisfy the demand of the decimal part of the nodes were obtained, shown in Appendix: Table \ref{tab:ParteDecimal}. Likewise, two of the routes of the proposed model are shown graphically (see Figure \ref{fig:RutasDeEjemplo}). The rest of the routes can be accessed in Appendix.
 
         \begin{figure}[h!]
             \begin{center}
@@ -272,7 +278,7 @@
             
             $$z^* = 197.86 \text{ hours}$$
 
-            Equivalent to 25 working days of 8 hours each if we consider only one vehicle, although this time can be improved if several vehicles operate simultaneously. It is important to mention that this solution requieres 183 travels, just the estimated minimum estimated by the lower bound $\lceil \sum_{i} q_i \div L \rceil = 183$, showing its feasibility.
+            Equivalent to 25 working days of 8 hours each if we consider only one vehicle, although this time can be improved if several vehicles operate simultaneously. It is important to mention that this solution requires 183 travels, just the estimated minimum estimated by the lower bound $\lceil \sum_{i} q_i \div L \rceil = 183$, showing its feasibility.
             
             Once the routes are ordered by the mathematical model proposed on Section \ref{OrderRoutes} we got a result for 27 days, but the model got a possible maximum of 26 work days, so we decided to do it by hand, which can be observed in Appendix: Table \ref{tab:DistribucionViajes}.
        
@@ -300,20 +306,19 @@
     
     As often happens in this kind of problems, the exact solution resulted to be too much expensive, both in time and memory, therefore, the heuristic model was used at the end.
     
-    Moreover, the results obtained by heuristics and the mathematical model for ordering the routes are congruent with the approximate time for the project given by CONAFOR. The organization expects to be able to complete the reforestation in less that a month, while in an ideal scenerario, where no external issue affect the delivery times, the project could be completed in 26 days using the methodology described in this paper, successfully reducing the economic cost and time needed.
+    Moreover, the results obtained by heuristics and the mathematical model for ordering the routes are congruent with the approximate time for the project given by the partnered entity, which expects to be able to complete the reforestation in less that a month, while in an ideal scenario, where no external issue affect the delivery times, the project could be completed in 26 days using the methodology described in this paper, successfully reducing the economic cost and time needed.
 
     
 % -----------------------------Conclusion---------------------------------
     \section{Conclusions}
-    Exact solutions based on the mathematical models permits to find the best possible way to solve a problem, which is translated to a considerable reduce of cost. However, there are some cases, like the one presented in this paper, where finding these solutions become inconveniently large in terms of time and memory, at least for most of the commercial computers. This is when hueristics gain relevance, since finding solutions almost as good as the optimal with much less time and memory needed, is definitely an option to take in count for small projects and/or companies that do not count with great computacional resources. 
-    Furthermore, there is no doubt that other aspects can be improved in this project, since some factors as the real distance between nodes and other human and ntural inconv
+    Exact solutions based on the mathematical models permits to find the best possible way to solve a problem, which is translated to a considerable reduction of cost. However, there are some cases, like the one presented in this paper, where finding these solutions become inconveniently large in terms of time and memory, at least for most of the commercial computers. This is when heuristics gain relevance, since finding solutions almost as good as the optimal with much less time and memory needed, is definitely an option to take in count for small projects and/or companies that do not count with great computational resources. 
+
+    Finally, some possible future improvements for this project are listed.
     
-    Finally, it is important to mention some of the limitations for this project. 
     \begin{itemize}
-        \item The real distance between nodes and the routes the behicules must follow to go from one node to another is not taken in count.
-        \item The already established plants are not consider until this point.
-        \item The effect the vehicles' weight could have on the established plants and terrain.
-        \item the effect of climatic phenomena.
+        \item Introduce better distance metrics between nodes that correspond to always available paths that do not compromise planting.
+        \item Consider, perhaps with a statistical approach, those native specimens that are already found in the areas to be reforested and that do not need to be planted by humans.
+        \item Consider the effects of climatic phenomena on the execution of the logistics plan.
     \end{itemize}
 
 
@@ -434,7 +439,7 @@
             A link to a \href{https://github.com/JuanjoBelt/VRP-ReforestationTransportLogistics/tree/5030293089820a896e177f198d9ab7f23ada59e7/Resources/RouteImages}{\underline{GitHub folder}} with images showing the routes mentioned in our work plan on geographic space is provided for illustrative purposes.
         
         \subsection{Required Distribution of Species per Hectare}
-        CONAFOR has established the following planting requirements (Table \ref{tab:especies}), which are identical for each hectare to be reforested. These requirements are scaled, maintaining their proportions between species when dealing with fractions of hectares.
+        The partnered entity has established the following planting requirements (Table \ref{tab:especies}), which are identical for each hectare to be reforested. These requirements are scaled, maintaining their proportions between species when dealing with fractions of hectares.
         
         \begin{table}[h!]
             \scriptsize
