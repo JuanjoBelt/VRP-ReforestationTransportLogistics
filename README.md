@@ -5,7 +5,7 @@
 <h1 align = "center">
   <b>Transport Routing Optimization for Reforestation</b>
 </h1>
-<p align = "center">Juan José H. Beltrán, Kevin Martínez-Trinidad, Kaleb Flores Alfonso, Jesús Ramirez Mendieta, Fernando Elizalde Ramírez</p>
+<p align = "center">Juan José H. Beltrán, Kevin Martínez-Trinidad, Kaleb Flores Alfonso<br>Jesús Ramirez Mendieta, Fernando Elizalde Ramírez</p>
 
 <h2> Abstract </h2>
 
