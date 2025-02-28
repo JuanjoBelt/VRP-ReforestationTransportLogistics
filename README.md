@@ -9,6 +9,6 @@
 
 <h2> Abstract </h2>
 
-<p align = "justify"> This paper addresses the optimization of transport logistics in reforestation projects, focusing on minimizing time, hence, costs associated with the delivery of plants to reforestation sites. Using a Vehicle Routing Problem (VRP) framework (Toth & Vigo, 2002), a mixed-integer linear programming was applied to identify the optimal routes for delivery trucks, considering vehicle capacities and delivery demands. Also, a heuristic solution was implemented, reducing computational time while maintaining near-optimal results. The solution, based on data from the National Forestry Commision in Mexico, shows that the heuristic model offers and efficient approach to managing reforestation logistics.</p>
+<p align = "justify"> This paper addresses the optimization of transport logistics in reforestation projects, focusing on minimizing time, hence, costs associated with the delivery of plants to reforestation sites. Using a Vehicle Routing Problem (VRP) framework, a mixed-integer linear programming was applied to identify the optimal routes for delivery trucks, considering vehicle capacities and delivery demands. Also, a heuristic solution was implemented, reducing computational time while maintaining near-optimal results. The solution, based on data from the National Forestry Commision in Mexico, shows that the heuristic model offers and efficient approach to managing reforestation logistics.</p>
 
 **Keywords:** Optimization, vehicle routing problem, linear programming, heuristics, logistics, reforestation.
